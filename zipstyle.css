@@ -1,0 +1,20 @@
+/* HTML styling */
+html { background-color: #333333 }
+body {
+    font-family: Helvetica, Arial, sans-serif; font-size: 16px;
+    color: #cbcbcb;
+}
+a { text-decoration: none; color: #999a63 }
+#map { width: 1200px; height: 600px; }
+
+/* SVG styling */
+svg { background-color: #333333 }
+text { fill: #cbcbcb; font-size: 24px; }
+#states { fill: none; stroke: #555555; stroke-width: 0.5px; }
+rect {
+    transition: fill 0.4s;
+    -webkit-transition: fill 0.4s;
+    -o-transition: fill 0.4s;
+}
+.selected { fill: #cbcbcb }
+.unselected { fill: #999a63 }
